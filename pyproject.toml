@@ -1,0 +1,32 @@
+[project]
+name = "dsa"
+version = "0.1.0"
+description = "Comprehensive Python DSA (Data Structures and Algorithms) Practice and Reference Repository"
+readme = "README.md"
+authors = [
+    { name = "tjeight", email = "thetejasjagdale@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.8.12,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
