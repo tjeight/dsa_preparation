@@ -8,6 +8,8 @@ A progressive, structured roadmap to master Data Structures and Algorithms in Py
 
 - **[x] Star & Number Patterns**: 22 / 22 Completed ([`src/dsa/star_patterns/`](../src/dsa/star_patterns/README.md))
 - **[x] Python Built-in Collections**: 5 / 5 Completed ([`src/dsa/collections/`](../src/dsa/collections/README.md))
+- **[x] Basic Mathematics**: 7 / 7 Completed ([`src/dsa/basic_math/`](../src/dsa/basic_math/README.md))
+- **[x] Recursion Foundations**: In Progress ([`src/dsa/recursion/`](../src/dsa/recursion/))
 - **[ ] Linear Data Structures**: Next Up (Arrays, Strings, Linked Lists, Stacks, Queues)
 - **[ ] Non-Linear Data Structures**: Upcoming (Trees, BSTs, Heaps, Graphs, Tries, DSU)
 - **[ ] Core Algorithmic Paradigms**: Upcoming (Sorting, Searching, Recursion & Backtracking, DP)
@@ -30,7 +32,23 @@ A progressive, structured roadmap to master Data Structures and Algorithms in Py
 - [x] **Patterns 11 to 16**: Binary triangle, number crowns/valleys, Floyd's triangle, alphabet triangles
 - [x] **Patterns 17 to 22**: Palindrome pyramid, reverse alphabets, hollow diamond, butterfly, hollow square, concentric number spirals
 
-### 1.3 Complexity Analysis (`notes/time_space_complexity.md`)
+### 1.3 Basic Mathematics (`src/dsa/basic_math/`)
+- [x] **Count Digits (`count_digits.py`)**: $\lfloor \log_{10} N \rfloor + 1$ formula and division
+- [x] **Reverse an Integer (`reverse_number.py`)**: Modulo `% 10` and `rev * 10 + rem`
+- [x] **Palindrome Number (`palindrome_number.py`)**: Integer symmetry verification
+- [x] **GCD / HCF (`gcd.py`)**: Euclidean Algorithm by modulo division $\gcd(b, a \pmod b)$
+- [x] **Armstrong Number (`armstrong.py`)**: Digit power sum $\sum d_i^k = N$
+- [x] **All Divisors (`all_divisors.py`)**: Conjugate pairs up to $\lfloor\sqrt{N}\rfloor$ in $O(\sqrt{N})$
+- [x] **Prime Check (`prime.py`)**: Trial division up to $\lfloor\sqrt{N}\rfloor$ with mathematical proof
+
+### 1.4 Recursion Foundations (`src/dsa/recursion/`)
+- [x] **Print N Times (`print_n_times.py`)**: Base case, work, recursive call, call stack trace
+- [ ] Print 1 to N and N to 1 (Head vs Tail recursion)
+- [ ] Parameterized vs Functional recursion (Sum of 1..N, Factorial)
+- [ ] Multiple recursive calls (Fibonacci numbers)
+- [ ] Reverse an array / Palindrome string with recursion
+
+### 1.5 Complexity Analysis (`notes/time_space_complexity.md`)
 - [x] Big-O hierarchy ($O(1)$ through $O(n!)$)
 - [x] CPython internal operational costs for all collections
 - [x] 1-second online judge execution rules ($10^7$ operations in Python)

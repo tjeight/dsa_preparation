@@ -12,6 +12,8 @@ Last Updated: September 2026
 | :--- | :--- | :---: | :---: | :--- |
 | **Star & Number Patterns** | `src/dsa/star_patterns/` | 22 | ✅ Complete | [README.md](../src/dsa/star_patterns/README.md) |
 | **Python Collections** | `src/dsa/collections/` | 5 | ✅ Complete | [README.md](../src/dsa/collections/README.md) |
+| **Basic Mathematics** | `src/dsa/basic_math/` | 7 | ✅ Complete | [README.md](../src/dsa/basic_math/README.md) |
+| **Recursion Foundations** | `src/dsa/recursion/` | 2 | 🟡 In Progress | Basic call stack & printing |
 | **Complexity Reference** | `notes/` | 1 | ✅ Complete | [time_space_complexity.md](time_space_complexity.md) |
 | **Standard Library Cheatsheet** | `notes/` | 1 | ✅ Complete | [python_dsa_cheatsheet.md](python_dsa_cheatsheet.md) |
 | **Problem Solving Patterns** | `notes/` | 1 | ✅ Complete | [problem_solving_patterns.md](problem_solving_patterns.md) |
@@ -46,13 +48,34 @@ All 22 Striver-style foundational pattern problems implemented and documented:
 - [x] [`pattern17.py`](../src/dsa/star_patterns/pattern17.py) to [`pattern22.py`](../src/dsa/star_patterns/pattern22.py): Palindrome pyramid, reverse alphabets, hollow diamond, butterfly, hollow square, concentric number spirals.
 - [x] [`README.md`](../src/dsa/star_patterns/README.md): The 4 Golden Rules of Pattern Solving and ASCII breakdowns for all 22 patterns.
 
+### 3. Basic Mathematics (`src/dsa/basic_math/`)
+Seven core number-theory algorithms implemented, verified, and documented:
+- [x] [`count_digits.py`](../src/dsa/basic_math/count_digits.py): Iterative division vs logarithmic formula $\lfloor \log_{10} N \rfloor + 1$.
+- [x] [`reverse_number.py`](../src/dsa/basic_math/reverse_number.py): Modulo digit extraction `% 10` and base-10 accumulation `rev * 10 + rem`.
+- [x] [`palindrome_number.py`](../src/dsa/basic_math/palindrome_number.py): Integer symmetry verification, negative numbers, and trailing zeros.
+- [x] [`gcd.py`](../src/dsa/basic_math/gcd.py): Euclidean Algorithm by modulo division $\gcd(b, a \pmod b)$ and LCM relation.
+- [x] [`armstrong.py`](../src/dsa/basic_math/armstrong.py): Narcissistic number verification $\sum d_i^k = N$.
+- [x] [`all_divisors.py`](../src/dsa/basic_math/all_divisors.py): Conjugate factor pairs up to $\lfloor\sqrt{N}\rfloor$ with deduplication.
+- [x] [`prime.py`](../src/dsa/basic_math/prime.py): Primality trial division up to $\lfloor\sqrt{N}\rfloor$ with mathematical proof.
+- [x] [`README.md`](../src/dsa/basic_math/README.md): Formula reference, comparison table, and problem breakdowns.
+
+### 4. Recursion Fundamentals (`src/dsa/recursion/`)
+- [x] [`print_n_times.py`](../src/dsa/recursion/print_n_times.py): The 3 pillars of recursion (base case, work, recursive call) and call stack trace.
+- [ ] Print 1 to N / N to 1 (Head vs Tail recursion).
+- [ ] Parameterized vs Functional recursion (Sum of 1..N, Factorial).
+- [ ] Multiple recursive calls (Fibonacci numbers).
+
 ---
 
 ## 🎯 Next Recommended Steps
-1. Implement Linear Data Structures:
+1. Complete Recursion Foundations:
+   - Print 1 to N and N to 1
+   - Sum of first N numbers & Factorial
+   - Reverse an array / string using recursion
+2. Implement Linear Data Structures:
    - Singly Linked List with node definition, insert, delete, and reverse.
    - Stack and Queue using `collections.deque`.
-2. Start the Two Pointers pattern (`src/dsa/patterns/two_pointers/`):
+3. Start the Two Pointers pattern (`src/dsa/patterns/two_pointers/`):
    - Two Sum II (Sorted Array)
    - 3Sum
    - Container With Most Water
