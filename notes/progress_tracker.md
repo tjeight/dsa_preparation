@@ -13,7 +13,7 @@ Last Updated: September 2026
 | **Star & Number Patterns** | `src/dsa/star_patterns/` | 22 | ✅ Complete | [README.md](../src/dsa/star_patterns/README.md) |
 | **Python Collections** | `src/dsa/collections/` | 5 | ✅ Complete | [README.md](../src/dsa/collections/README.md) |
 | **Basic Mathematics** | `src/dsa/basic_math/` | 7 | ✅ Complete | [README.md](../src/dsa/basic_math/README.md) |
-| **Recursion Foundations** | `src/dsa/recursion/` | 2 | 🟡 In Progress | Basic call stack & printing |
+| **Recursion Foundations** | `src/dsa/recursion/` | 14 | 🟡 In Progress | Core recursion, arrays, strings & math |
 | **Complexity Reference** | `notes/` | 1 | ✅ Complete | [time_space_complexity.md](time_space_complexity.md) |
 | **Standard Library Cheatsheet** | `notes/` | 1 | ✅ Complete | [python_dsa_cheatsheet.md](python_dsa_cheatsheet.md) |
 | **Problem Solving Patterns** | `notes/` | 1 | ✅ Complete | [problem_solving_patterns.md](problem_solving_patterns.md) |
@@ -61,9 +61,21 @@ Seven core number-theory algorithms implemented, verified, and documented:
 
 ### 4. Recursion Fundamentals (`src/dsa/recursion/`)
 - [x] [`print_n_times.py`](../src/dsa/recursion/print_n_times.py): The 3 pillars of recursion (base case, work, recursive call) and call stack trace.
-- [ ] Print 1 to N / N to 1 (Head vs Tail recursion).
-- [ ] Parameterized vs Functional recursion (Sum of 1..N, Factorial).
+- [x] [`print_name_n_times.py`](../src/dsa/recursion/print_name_n_times.py): Parameterized recursion tracking iteration counts.
+- [x] [`print_1_to_n.py`](../src/dsa/recursion/print_1_to_n.py): Ascending print order via recursive counter.
+- [x] [`print_n_to_1.py`](../src/dsa/recursion/print_n_to_1.py): Descending print countdown recursion.
+- [x] [`sum_of_n.py`](../src/dsa/recursion/sum_of_n.py): Functional recursion returning accumulated subproblem sums $N + \text{sum}(N-1)$.
+- [x] [`factorial.py`](../src/dsa/recursion/factorial.py): Functional multiplication recursion $N \times \text{fact}(N-1)$.
+- [x] [`sum_of_array_elements.py`](../src/dsa/recursion/sum_of_array_elements.py): Array summation via tail slicing and pointer optimization.
+- [x] [`reverse_string.py`](../src/dsa/recursion/reverse_string.py): String reversal via end-character extraction and recursion.
+- [x] [`reverse_array.py`](../src/dsa/recursion/reverse_array.py): In-place array reversal using converging two-pointer swaps.
+- [x] [`check_palindrome.py`](../src/dsa/recursion/check_palindrome.py): String palindrome check using reverse string comparison.
+- [x] [`check_palindrome_two_pointer.py`](../src/dsa/recursion/check_palindrome_two_pointer.py): Palindrome check by recursive boundary comparison.
+- [x] [`prime_check.py`](../src/dsa/recursion/prime_check.py): Primality verification via countdown trial division.
+- [x] [`is_sorted.py`](../src/dsa/recursion/is_sorted.py): Array sort order verification via recursive tail slicing and pointer optimization.
+- [x] [`sum_of_digit_of_number.py`](../src/dsa/recursion/sum_of_digit_of_number.py): Digit sum extraction via modulo and integer division functional recursion.
 - [ ] Multiple recursive calls (Fibonacci numbers).
+- [ ] Subsequences generation and backtracking.
 
 ---
 
