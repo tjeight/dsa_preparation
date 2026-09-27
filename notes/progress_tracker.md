@@ -13,7 +13,7 @@ Last Updated: September 2026
 | **Star & Number Patterns** | `src/dsa/star_patterns/` | 22 | ✅ Complete | [README.md](../src/dsa/star_patterns/README.md) |
 | **Python Collections** | `src/dsa/collections/` | 5 | ✅ Complete | [README.md](../src/dsa/collections/README.md) |
 | **Basic Mathematics** | `src/dsa/basic_math/` | 7 | ✅ Complete | [README.md](../src/dsa/basic_math/README.md) |
-| **Recursion Foundations** | `src/dsa/recursion/` | 14 | 🟡 In Progress | Core recursion, arrays, strings & math |
+| **Recursion Foundations** | `src/dsa/recursion/` | 14 | 🟡 In Progress | [README.md](../src/dsa/recursion/README.md) |
 | **Complexity Reference** | `notes/` | 1 | ✅ Complete | [time_space_complexity.md](time_space_complexity.md) |
 | **Standard Library Cheatsheet** | `notes/` | 1 | ✅ Complete | [python_dsa_cheatsheet.md](python_dsa_cheatsheet.md) |
 | **Problem Solving Patterns** | `notes/` | 1 | ✅ Complete | [problem_solving_patterns.md](problem_solving_patterns.md) |
