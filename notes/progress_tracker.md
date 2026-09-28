@@ -23,7 +23,7 @@ Last Updated: September 2026
 | **Trees & BSTs** | `src/dsa/data_structures/trees/` | 0 | ⏳ Ready | Folder initialized |
 | **Heaps & Priority Queues** | `src/dsa/data_structures/heaps/` | 0 | ⏳ Ready | Folder initialized |
 | **Graphs** | `src/dsa/data_structures/graphs/` | 0 | ⏳ Ready | Folder initialized |
-| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 0 | ⏳ Ready | Folder initialized |
+| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 10 | 🟡 In Progress | 5 Core algorithms + 5 Pseudocode references |
 | **Searching Algorithms** | `src/dsa/algorithms/searching/` | 0 | ⏳ Ready | Folder initialized |
 | **Dynamic Programming** | `src/dsa/algorithms/dynamic_programming/` | 0 | ⏳ Ready | Folder initialized |
 
@@ -76,6 +76,20 @@ Seven core number-theory algorithms implemented, verified, and documented:
 - [x] [`sum_of_digit_of_number.py`](../src/dsa/recursion/sum_of_digit_of_number.py): Digit sum extraction via modulo and integer division functional recursion.
 - [ ] Multiple recursive calls (Fibonacci numbers).
 - [ ] Subsequences generation and backtracking.
+
+### 5. Sorting Algorithms (`src/dsa/algorithms/sorting/`)
+- Core Sorting Implementations:
+  - [x] [`selection_sort.py`](../src/dsa/algorithms/sorting/selection_sort.py): In-place comparison sort via minimum element placement ($O(N^2)$ time, $O(1)$ space).
+  - [x] [`bubble_sort.py`](../src/dsa/algorithms/sorting/bubble_sort.py): In-place adjacent comparison and bubbling up of maximum elements ($O(N^2)$ time, $O(1)$ space).
+  - [x] [`insertion_sort.py`](../src/dsa/algorithms/sorting/insertion_sort.py): In-place incremental insertion with backward shifting ($O(N^2)$ worst, $O(N)$ best, $O(1)$ space).
+  - [x] [`merge_sort.py`](../src/dsa/algorithms/sorting/merge_sort.py): Divide and conquer recursive array partitioning and two-pointer merging ($O(N \log N)$ time, $O(N)$ space).
+  - [x] [`quick_sort.py`](../src/dsa/algorithms/sorting/quick_sort.py): Divide and conquer partition sorting via Lomuto pivot placement ($O(N \log N)$ average, $O(N^2)$ worst).
+- Pseudocode & Algorithmic Reference Modules:
+  - [x] [`selection_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/selection_sort_pseudo_code.py): Formal textbook pseudocode, line-by-line analysis, and reference implementation.
+  - [x] [`bubble_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/bubble_sort_pseudo_code.py): Optimized pseudocode with early exit flag and line-by-line breakdown.
+  - [x] [`insertion_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/insertion_sort_pseudo_code.py): Standard CLRS pseudocode, shifting logic, and reference implementation.
+  - [x] [`merge_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/merge_sort_pseudo_code.py): Divide & conquer pseudocode with two-pointer merge subroutine.
+  - [x] [`quick_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/quick_sort_pseudo_code.py): Lomuto partitioning pseudocode and in-place divide & conquer breakdown.
 
 ---
 
