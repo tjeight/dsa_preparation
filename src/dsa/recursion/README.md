@@ -71,9 +71,9 @@ flowchart TD
 | 9 | **Reverse an Array (In-Place)** | [`reverse_array.py`](reverse_array.py) | Two-pointer converging swaps | $O(N)$ | $O(N)$ |
 | 10 | **Check Palindrome (Reverse)** | [`check_palindrome.py`](check_palindrome.py) | Reversal comparison `s == rev(s)` | $O(N^2)$ | $O(N^2)$ |
 | 11 | **Check Palindrome (Boundary)** | [`check_palindrome_two_pointer.py`](check_palindrome_two_pointer.py) | Boundary matching `s[0] == s[-1]` | $O(N^2)$ (slice) / $O(N)$ (ptr) | $O(N)$ |
-| 12 | **Check Prime** | [`prime_check.py`](prime_check.py) | Trial division countdown `divisor - 1` | $O(N)$ | $O(N)$ |
+| 12 | **Check Prime** | [`check_prime.py`](check_prime.py) | Trial division countdown `divisor - 1` | $O(N)$ | $O(N)$ |
 | 13 | **Check if Array is Sorted** | [`is_sorted.py`](is_sorted.py) | Adjacent comparison & tail slicing | $O(N^2)$ (slice) / $O(N)$ (ptr) | $O(N)$ |
-| 14 | **Sum of Digits** | [`sum_of_digit_of_number.py`](sum_of_digit_of_number.py) | Modulo extraction `n % 10 + f(n // 10)` | $O(\log_{10} N)$ | $O(\log_{10} N)$ |
+| 14 | **Sum of Digits** | [`sum_of_digits.py`](sum_of_digits.py) | Modulo extraction `n % 10 + f(n // 10)` | $O(\log_{10} N)$ | $O(\log_{10} N)$ |
 
 ---
 
@@ -118,7 +118,7 @@ flowchart TD
 - **Edge Case**: $N = 0 \implies 1$ (multiplicative identity).
 
 #### 2.3 Sum of Digits of a Number
-- **File**: [`sum_of_digit_of_number.py`](sum_of_digit_of_number.py)
+- **File**: [`sum_of_digits.py`](sum_of_digits.py)
 - **Mathematical Decomposition**:
   - Last digit: `n % 10`
   - Remaining digits: `n // 10`
@@ -127,7 +127,7 @@ flowchart TD
 - **Complexity**: $O(\log_{10} N)$ time and $O(\log_{10} N)$ auxiliary stack frames.
 
 #### 2.4 Prime Check (Recursive Trial Division)
-- **File**: [`prime_check.py`](prime_check.py)
+- **File**: [`check_prime.py`](check_prime.py)
 - **Concept**: Tests candidate divisors counting down from $N - 1$ to $1$.
 - **Base Cases**:
   - `number <= 1` $\implies$ `False`

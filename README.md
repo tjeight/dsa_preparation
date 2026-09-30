@@ -16,66 +16,28 @@ dsa_preparation/
 ├── README.md
 │
 ├── notes/                       # Notes, roadmaps, and reference materials
+│   ├── progress_tracker.md      # Living inventory of all topics and files
 │   ├── roadmap.md               # Progressive learning roadmap
 │   ├── time_space_complexity.md # Big-O reference and operation costs
-│   └── python_dsa_cheatsheet.md # Python standard library reference
+│   ├── python_dsa_cheatsheet.md # Python standard library reference
+│   └── problem_solving_patterns.md # 14 interview problem-solving patterns
 │
 ├── src/
 │   └── dsa/
 │       ├── __init__.py
-│       ├── common/              # Reusable nodes (ListNode, TreeNode, GraphNode, etc.)
-│       │
-│       ├── data_structures/     # Fundamental & custom data structures
-│       │   ├── arrays_and_strings/
-│       │   ├── linked_lists/
-│       │   ├── stacks_and_queues/
-│       │   ├── hashing/
-│       │   ├── trees/
-│       │   ├── heaps/
-│       │   ├── graphs/
-│       │   ├── tries/
-│       │   ├── disjoint_set_union/
-│       │   └── advanced/        # Segment Trees, Fenwick Trees, etc.
-│       │
-│       ├── algorithms/          # Core algorithmic concepts
-│       │   ├── sorting/
-│       │   ├── searching/
-│       │   ├── recursion_and_backtracking/
-│       │   ├── dynamic_programming/
-│       │   ├── greedy/
-│       │   ├── graph_algorithms/
-│       │   ├── bit_manipulation/
-│       │   └── math_and_geometry/
-│       │
-│       ├── patterns/            # Problem-solving patterns
-│       │   ├── two_pointers/
-│       │   ├── sliding_window/
-│       │   ├── fast_and_slow_pointers/
-│       │   ├── merge_intervals/
-│       │   ├── cyclic_sort/
-│       │   ├── in_place_reversal_linked_list/
-│       │   ├── tree_bfs/
-│       │   ├── tree_dfs/
-│       │   ├── two_heaps/
-│       │   ├── subsets_and_permutations/
-│       │   ├── modified_binary_search/
-│       │   ├── top_k_elements/
-│       │   ├── k_way_merge/
-│       │   ├── monotonic_stack/
-│       │   └── dynamic_programming_patterns/
-│       │
-│       ├── platforms/           # Organized by platform / contest
-│       │   ├── leetcode/
-│       │   ├── neetcode/
-│       │   ├── gfg/
-│       │   └── codeforces/
-│       │
-│       └── templates/           # Reusable boilerplate templates (BFS, Dijkstra, etc.)
+│       ├── collections/         # Built-in collections (list, dict, set, string, tuple)
+│       ├── star_patterns/       # 22 Star & number pattern problems
+│       ├── basic_math/          # Number theory & mathematical foundations
+│       ├── recursion/           # Recursion pillars, math, arrays, strings & backtracking
+│       └── algorithms/          # Core algorithmic implementations
+│           └── sorting/         # Selection, Bubble, Insertion, Merge, Quick Sort & Pseudocode
 │
 └── tests/                       # Unit tests with pytest
     ├── conftest.py
     └── test_setup.py
 ```
+
+> **Note**: New folders (e.g., `searching/`, `linked_lists/`, `trees/`, `graphs/`, `dynamic_programming/`) will be incrementally added as we study each topic.
 
 ---
 

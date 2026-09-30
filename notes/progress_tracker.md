@@ -14,18 +14,18 @@ Last Updated: September 2026
 | **Python Collections** | `src/dsa/collections/` | 5 | ✅ Complete | [README.md](../src/dsa/collections/README.md) |
 | **Basic Mathematics** | `src/dsa/basic_math/` | 7 | ✅ Complete | [README.md](../src/dsa/basic_math/README.md) |
 | **Recursion Foundations** | `src/dsa/recursion/` | 14 | 🟡 In Progress | [README.md](../src/dsa/recursion/README.md) |
+| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 10 | 🟡 In Progress | [README.md](../src/dsa/algorithms/sorting/README.md) |
 | **Complexity Reference** | `notes/` | 1 | ✅ Complete | [time_space_complexity.md](time_space_complexity.md) |
 | **Standard Library Cheatsheet** | `notes/` | 1 | ✅ Complete | [python_dsa_cheatsheet.md](python_dsa_cheatsheet.md) |
 | **Problem Solving Patterns** | `notes/` | 1 | ✅ Complete | [problem_solving_patterns.md](problem_solving_patterns.md) |
-| **Arrays & Strings** | `src/dsa/data_structures/arrays_and_strings/` | 0 | ⏳ Ready | Folder initialized |
-| **Linked Lists** | `src/dsa/data_structures/linked_lists/` | 0 | ⏳ Ready | Folder initialized |
-| **Stacks & Queues** | `src/dsa/data_structures/stacks_and_queues/` | 0 | ⏳ Ready | Folder initialized |
-| **Trees & BSTs** | `src/dsa/data_structures/trees/` | 0 | ⏳ Ready | Folder initialized |
-| **Heaps & Priority Queues** | `src/dsa/data_structures/heaps/` | 0 | ⏳ Ready | Folder initialized |
-| **Graphs** | `src/dsa/data_structures/graphs/` | 0 | ⏳ Ready | Folder initialized |
-| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 10 | 🟡 In Progress | [README.md](../src/dsa/algorithms/sorting/README.md) |
-| **Searching Algorithms** | `src/dsa/algorithms/searching/` | 0 | ⏳ Ready | Folder initialized |
-| **Dynamic Programming** | `src/dsa/algorithms/dynamic_programming/` | 0 | ⏳ Ready | Folder initialized |
+| **Arrays & Strings** | `src/dsa/data_structures/arrays_and_strings/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Searching Algorithms** | `src/dsa/algorithms/searching/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Linked Lists** | `src/dsa/data_structures/linked_lists/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Stacks & Queues** | `src/dsa/data_structures/stacks_and_queues/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Trees & BSTs** | `src/dsa/data_structures/trees/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Heaps & Priority Queues** | `src/dsa/data_structures/heaps/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Graphs** | `src/dsa/data_structures/graphs/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Dynamic Programming** | `src/dsa/algorithms/dynamic_programming/` | 0 | ⏳ Upcoming | To be added when covered |
 
 ---
 
@@ -71,9 +71,9 @@ Seven core number-theory algorithms implemented, verified, and documented:
 - [x] [`reverse_array.py`](../src/dsa/recursion/reverse_array.py): In-place array reversal using converging two-pointer swaps.
 - [x] [`check_palindrome.py`](../src/dsa/recursion/check_palindrome.py): String palindrome check using reverse string comparison.
 - [x] [`check_palindrome_two_pointer.py`](../src/dsa/recursion/check_palindrome_two_pointer.py): Palindrome check by recursive boundary comparison.
-- [x] [`prime_check.py`](../src/dsa/recursion/prime_check.py): Primality verification via countdown trial division.
+- [x] [`check_prime.py`](../src/dsa/recursion/check_prime.py): Primality verification via countdown trial division.
 - [x] [`is_sorted.py`](../src/dsa/recursion/is_sorted.py): Array sort order verification via recursive tail slicing and pointer optimization.
-- [x] [`sum_of_digit_of_number.py`](../src/dsa/recursion/sum_of_digit_of_number.py): Digit sum extraction via modulo and integer division functional recursion.
+- [x] [`sum_of_digits.py`](../src/dsa/recursion/sum_of_digits.py): Digit sum extraction via modulo and integer division functional recursion.
 - [ ] Multiple recursive calls (Fibonacci numbers).
 - [ ] Subsequences generation and backtracking.
 
