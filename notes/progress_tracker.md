@@ -23,7 +23,7 @@ Last Updated: September 2026
 | **Trees & BSTs** | `src/dsa/data_structures/trees/` | 0 | ⏳ Ready | Folder initialized |
 | **Heaps & Priority Queues** | `src/dsa/data_structures/heaps/` | 0 | ⏳ Ready | Folder initialized |
 | **Graphs** | `src/dsa/data_structures/graphs/` | 0 | ⏳ Ready | Folder initialized |
-| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 10 | 🟡 In Progress | 5 Core algorithms + 5 Pseudocode references |
+| **Sorting Algorithms** | `src/dsa/algorithms/sorting/` | 10 | 🟡 In Progress | [README.md](../src/dsa/algorithms/sorting/README.md) |
 | **Searching Algorithms** | `src/dsa/algorithms/searching/` | 0 | ⏳ Ready | Folder initialized |
 | **Dynamic Programming** | `src/dsa/algorithms/dynamic_programming/` | 0 | ⏳ Ready | Folder initialized |
 
