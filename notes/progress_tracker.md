@@ -18,7 +18,7 @@ Last Updated: September 2026
 | **Complexity Reference** | `notes/` | 1 | ✅ Complete | [time_space_complexity.md](time_space_complexity.md) |
 | **Standard Library Cheatsheet** | `notes/` | 1 | ✅ Complete | [python_dsa_cheatsheet.md](python_dsa_cheatsheet.md) |
 | **Problem Solving Patterns** | `notes/` | 1 | ✅ Complete | [problem_solving_patterns.md](problem_solving_patterns.md) |
-| **Arrays & Strings** | `src/dsa/data_structures/arrays_and_strings/` | 0 | ⏳ Upcoming | To be added when covered |
+| **Arrays** | `src/dsa/arrays/` | 3 | 🟡 In Progress | Linear search, largest & 2nd largest |
 | **Searching Algorithms** | `src/dsa/algorithms/searching/` | 0 | ⏳ Upcoming | To be added when covered |
 | **Linked Lists** | `src/dsa/data_structures/linked_lists/` | 0 | ⏳ Upcoming | To be added when covered |
 | **Stacks & Queues** | `src/dsa/data_structures/stacks_and_queues/` | 0 | ⏳ Upcoming | To be added when covered |
@@ -90,6 +90,16 @@ Seven core number-theory algorithms implemented, verified, and documented:
   - [x] [`insertion_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/insertion_sort_pseudo_code.py): Standard CLRS pseudocode, shifting logic, and reference implementation.
   - [x] [`merge_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/merge_sort_pseudo_code.py): Divide & conquer pseudocode with two-pointer merge subroutine.
   - [x] [`quick_sort_pseudo_code.py`](../src/dsa/algorithms/sorting/quick_sort_pseudo_code.py): Lomuto partitioning pseudocode and in-place divide & conquer breakdown.
+
+### 6. Arrays & Linear Problems (`src/dsa/arrays/`)
+- [x] [`linear_search.py`](../src/dsa/arrays/linear_search.py): Sequential search with early exit on target match ($O(N)$ worst, $O(1)$ best, $O(1)$ space).
+- [x] [`largest_element.py`](../src/dsa/arrays/largest_element.py): Single-pass linear scan to determine array maximum ($O(N)$ time, $O(1)$ space).
+- [x] [`second_largest_element.py`](../src/dsa/arrays/second_largest_element.py): Single-pass dual tracker finding second largest distinct value ($O(N)$ time, $O(1)$ space).
+- [x] [`consecutive_ones.py`](../src/dsa/arrays/consecutive_ones.py): Single-pass linear scan counting maximum consecutive 1s with streak reset ($O(N)$ time, $O(1)$ space).
+- [x] [`rotate_array_left_one.py`](../src/dsa/arrays/rotate_array_left_one.py): In-place left rotation by one position using element buffering and shift loop ($O(N)$ time, $O(1)$ space).
+- [x] [`rotate_array_by_k_postions.py`](../src/dsa/arrays/rotate_array_by_k_postions.py): Left rotation by $k$ positions using modulo reduction and temporary slice buffer ($O(N)$ time, $O(k)$ space).
+- [x] [`move_zeroes_to_end.py`](../src/dsa/arrays/move_zeroes_to_end.py): In-place two-pointer partition moving zeroes to array end while preserving element order ($O(N)$ time, $O(1)$ space).
+- [x] [`remove_duplicates.py`](../src/dsa/arrays/remove_duplicates.py): In-place two-pointer deduplication of sorted array overwriting duplicates ($O(N)$ time, $O(1)$ space).
 
 ---
 
