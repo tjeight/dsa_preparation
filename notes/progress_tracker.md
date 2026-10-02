@@ -100,6 +100,11 @@ Seven core number-theory algorithms implemented, verified, and documented:
 - [x] [`rotate_array_by_k_postions.py`](../src/dsa/arrays/rotate_array_by_k_postions.py): Left rotation by $k$ positions using modulo reduction and temporary slice buffer ($O(N)$ time, $O(k)$ space).
 - [x] [`move_zeroes_to_end.py`](../src/dsa/arrays/move_zeroes_to_end.py): In-place two-pointer partition moving zeroes to array end while preserving element order ($O(N)$ time, $O(1)$ space).
 - [x] [`remove_duplicates.py`](../src/dsa/arrays/remove_duplicates.py): In-place two-pointer deduplication of sorted array overwriting duplicates ($O(N)$ time, $O(1)$ space).
+- [x] [`find_missing_number.py`](../src/dsa/arrays/find_missing_number.py): Gauss's summation formula determining missing element in $[0, n]$ ($O(N)$ time, $O(1)$ space).
+- [x] [`union_array.py`](../src/dsa/arrays/union_array.py): Two-pointer linear merge of two sorted arrays with tail deduplication ($O(N + M)$ time, $O(1)$ auxiliary space).
+- [x] [`intersection_of_arrays.py`](../src/dsa/arrays/intersection_of_arrays.py): Two-pointer linear scan finding common elements in sorted arrays ($O(N + M)$ time, $O(1)$ auxiliary space).
+- [x] [`majority_element.py`](../src/dsa/arrays/majority_element.py): Majority element detection via Hash Map ($O(N)$ space) and Boyer-Moore Voting Algorithm ($O(1)$ space).
+- [x] [`leaders.py`](../src/dsa/arrays/leaders.py): Optimal right-to-left linear scan tracking suffix maximum to identify leaders ($O(N)$ time, $O(1)$ auxiliary space).
 
 ---
 
