@@ -105,6 +105,10 @@ Seven core number-theory algorithms implemented, verified, and documented:
 - [x] [`intersection_of_arrays.py`](../src/dsa/arrays/intersection_of_arrays.py): Two-pointer linear scan finding common elements in sorted arrays ($O(N + M)$ time, $O(1)$ auxiliary space).
 - [x] [`majority_element.py`](../src/dsa/arrays/majority_element.py): Majority element detection via Hash Map ($O(N)$ space) and Boyer-Moore Voting Algorithm ($O(1)$ space).
 - [x] [`leaders.py`](../src/dsa/arrays/leaders.py): Optimal right-to-left linear scan tracking suffix maximum to identify leaders ($O(N)$ time, $O(1)$ auxiliary space).
+- [x] [`sort_positive_and_negative.py`](../src/dsa/arrays/sort_positive_and_negative.py): Rearrange array in alternating positive and negative order using two-list segregation ($O(N)$ time, $O(N)$ space).
+- [x] [`spiral_matrix.py`](../src/dsa/arrays/spiral_matrix.py): Clockwise spiral traversal of 2D matrix using 4-boundary shrinking loop ($O(M \times N)$ time, $O(1)$ auxiliary space).
+- [x] [`pascal_triangle.py`](../src/dsa/arrays/pascal_triangle.py): Dynamic programming construction of Pascal's triangle row by row ($O(N^2)$ time, $O(N^2)$ space).
+- [x] [`pascal_traingle_first_problem.py`](../src/dsa/arrays/pascal_traingle_first_problem.py): Pascal's Triangle Variation 1: Query element at $(r, c)$ using full row generation and 0-based indexing ($O(R^2)$ time, $O(R^2)$ space).
 
 ---
 
