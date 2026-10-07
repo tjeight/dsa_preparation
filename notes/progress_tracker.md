@@ -109,6 +109,12 @@ Seven core number-theory algorithms implemented, verified, and documented:
 - [x] [`spiral_matrix.py`](../src/dsa/arrays/spiral_matrix.py): Clockwise spiral traversal of 2D matrix using 4-boundary shrinking loop ($O(M \times N)$ time, $O(1)$ auxiliary space).
 - [x] [`pascal_triangle.py`](../src/dsa/arrays/pascal_triangle.py): Dynamic programming construction of Pascal's triangle row by row ($O(N^2)$ time, $O(N^2)$ space).
 - [x] [`pascal_traingle_first_problem.py`](../src/dsa/arrays/pascal_traingle_first_problem.py): Pascal's Triangle Variation 1: Query element at $(r, c)$ using full row generation and 0-based indexing ($O(R^2)$ time, $O(R^2)$ space).
+- [x] [`pascal_triangle_generate_nth_row.py`](../src/dsa/arrays/pascal_triangle_generate_nth_row.py): Pascal's Triangle Variation 2: Space-optimized iterative generation of $n$-th row ($O(R^2)$ time, $O(R)$ space).
+- [x] [`rotate_matrix_by_90.py`](../src/dsa/arrays/rotate_matrix_by_90.py): In-place 90-degree clockwise matrix rotation via diagonal transposition and row reversal ($O(N^2)$ time, $O(1)$ space).
+- [x] [`set_matrix_zeroes.py`](../src/dsa/arrays/set_matrix_zeroes.py): Set matrix zeroes using reference snapshot copy to prevent cascading zeroes ($O(M \times N \times (M + N))$ time, $O(M \times N)$ space).
+- [x] [`two_sum.py`](../src/dsa/arrays/two_sum.py): Find two indices summing to target via Brute Force ($O(N^2)$ time) and Optimal Hash Map ($O(N)$ time, $O(N)$ space).
+- [x] [`three_sum.py`](../src/dsa/arrays/three_sum.py): 3Sum unique triplets via Brute Force ($O(N^3)$), Hash Lookup ($O(N^2)$), and Sorted Two Pointers ($O(N^2)$ time, $O(1)$ space).
+- [x] [`four_sum.py`](../src/dsa/arrays/four_sum.py): 4Sum unique quadruplets via sorting, two fixed pointer loops, and converging two pointers ($O(N^3)$ time, $O(1)$ space).
 
 ---
 
